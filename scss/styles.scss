@@ -129,27 +129,37 @@ section {
             align-items: center;
         }
     }
-    .rectangle {
-        background-color: rgb(250, 215, 229);
-        position: absolute;
-        width: 57%;
-        height: 95%;
-        z-index: -1;
-        left: -31%;
-        top: -134px;
-        transform: rotate(45deg);
-    }
-    .rectangle2{
-        left: 78%;
-        top: 581px;
-        z-index: -1;
-    }
+
+}
+
+.rectangle {
+    background-color: rgb(250, 215, 229);
+    position: absolute;
+    width: 57%;
+    height: 95%;
+    z-index: -1;
+    left: -31%;
+    top: -134px;
+    transform: rotate(45deg);
+}
+.rectangle2{
+    left: 78%;
+    top: 581px;
+    z-index: -1;
 }
   
-  
+.rectangle-left {
+    background-color:  rgb(253, 239, 245);
+    width: 20%;
+    height: 20%;
+    transform: skew(-45deg);
+    z-index: 1;
+    position: relative;
+    left:-15%;
+}
 
 .moni1 {}
 
 .about {
-    background-color: honeydew;
+    background-color: white;
 }

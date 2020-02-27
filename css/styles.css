@@ -85,19 +85,30 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center; }
-  .main .rectangle {
-    background-color: #fad7e5;
-    position: absolute;
-    width: 57%;
-    height: 95%;
-    z-index: -1;
-    left: -31%;
-    top: -134px;
-    transform: rotate(45deg); }
-  .main .rectangle2 {
-    left: 78%;
-    top: 581px;
-    z-index: -1; }
+
+.rectangle {
+  background-color: #fad7e5;
+  position: absolute;
+  width: 57%;
+  height: 95%;
+  z-index: -1;
+  left: -31%;
+  top: -134px;
+  transform: rotate(45deg); }
+
+.rectangle2 {
+  left: 78%;
+  top: 581px;
+  z-index: -1; }
+
+.rectangle-left {
+  background-color: #fdeff5;
+  width: 20%;
+  height: 20%;
+  transform: skew(-45deg);
+  z-index: 1;
+  position: relative;
+  left: -15%; }
 
 .about {
-  background-color: honeydew; }
+  background-color: white; }
