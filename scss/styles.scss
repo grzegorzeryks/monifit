@@ -175,7 +175,7 @@ section {
     display: flex;
     flex-direction: column;
      align-items: center;
-     margin-top: -56px;
+     margin-top: -87px;
      p {
         padding: 63px 1px 11px 146px;
      }
@@ -190,7 +190,7 @@ section {
 
 }
 
-h2, h1 {
+h2, h1,  button{
     letter-spacing: 4px;
     font-family: 'Righteous', ;
 }
@@ -201,4 +201,25 @@ h2 {
     padding: 20px 30px;
 }
 
+
+button {
+    font-size: 29.52px;
+    background-color: rgb(239, 71, 111);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
 // border: dashed 1px hotpink;
+.Rounded_Rectangle_1 {
+    border-radius: 10px;
+    background-color: rgb(239, 71, 111);
+    position: absolute;
+    left: 2448px;
+    top: 1738px;
+    width: 210px;
+    height: 62px;
+    z-index: 43;
+  }
+  
