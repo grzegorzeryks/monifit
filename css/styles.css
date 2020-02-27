@@ -1,0 +1,103 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+body {
+  background: #c3eeff;
+  font-family: "Open Sans";
+  background-color: #fdeff5; }
+
+nav {
+  background-color: #3c3c3c;
+  top: 0px;
+  position: fixed;
+  height: 68px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  letter-spacing: 1.8px; }
+  nav .logo-nav {
+    height: 43px;
+    margin-left: 20px; }
+  nav ul li {
+    display: inline-block; }
+    nav ul li a {
+      color: #fdeff5;
+      text-decoration: none; }
+      nav ul li a:hover {
+        color: hotpink; }
+    nav ul li .de {
+      margin-left: 10px;
+      color: hotpink; }
+    nav ul li .en {
+      padding-left: 10px;
+      border-left: ivory 1px solid; }
+  nav ul:nth-last-child(1) li {
+    margin-right: 10px; }
+  nav ul:nth-last-child(2) li {
+    margin-left: 20px; }
+    nav ul:nth-last-child(2) li:nth-last-child(1) {
+      margin-left: 3px; }
+  nav ul:nth-child(3) {
+    margin-right: 10px; }
+
+section {
+  width: 100%;
+  height: 100vh; }
+
+.main {
+  font-family: "Righteous";
+  color: white;
+  margin-top: 68px;
+  display: flex;
+  letter-spacing: 4px; }
+  .main h1 {
+    background-color: #3c3c3c;
+    margin-top: 38px;
+    font-size: 35px;
+    padding: 20px; }
+  .main p {
+    margin-top: 20px;
+    font-size: 24px;
+    background-color: #fad7e5;
+    color: black;
+    padding: 20px; }
+    .main p:nth-child(4) {
+      font-size: 35px;
+      background-color: #3c3c3c;
+      padding: 20px 47px;
+      color: white; }
+  .main div:nth-child(1) {
+    margin: 15px 0 0 12%; }
+  .main div:nth-child(2) {
+    padding: 95px 0 0 0;
+    margin-left: -50px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .main .rectangle {
+    background-color: #fad7e5;
+    position: absolute;
+    width: 57%;
+    height: 95%;
+    z-index: -1;
+    left: -31%;
+    top: -134px;
+    transform: rotate(45deg); }
+  .main .rectangle2 {
+    left: 78%;
+    top: 581px;
+    z-index: -1; }
+
+.about {
+  background-color: honeydew; }
