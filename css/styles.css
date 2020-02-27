@@ -23,7 +23,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  letter-spacing: 1.8px; }
+  letter-spacing: 1.8px;
+  z-index: 33; }
   nav .logo-nav {
     height: 43px;
     margin-left: 20px; }
@@ -57,8 +58,7 @@ section {
   font-family: "Righteous";
   color: white;
   margin-top: 68px;
-  display: flex;
-  letter-spacing: 4px; }
+  display: flex; }
   .main h1 {
     background-color: #3c3c3c;
     margin-top: 38px;
@@ -69,7 +69,8 @@ section {
     font-size: 24px;
     background-color: #fad7e5;
     color: black;
-    padding: 20px; }
+    padding: 20px;
+    letter-spacing: 4px; }
     .main p:nth-child(4) {
       font-size: 35px;
       background-color: #3c3c3c;
@@ -91,7 +92,7 @@ section {
   position: absolute;
   width: 57%;
   height: 95%;
-  z-index: -1;
+  z-index: -2;
   left: -31%;
   top: -134px;
   transform: rotate(45deg); }
@@ -99,16 +100,43 @@ section {
 .rectangle2 {
   left: 78%;
   top: 581px;
-  z-index: -1; }
+  z-index: -2; }
 
 .rectangle-left {
   background-color: #fdeff5;
   width: 20%;
   height: 20%;
   transform: skew(-45deg);
-  z-index: 1;
+  z-index: 2;
   position: relative;
   left: -15%; }
 
+.moni1 {
+  z-index: -1; }
+
 .about {
-  background-color: white; }
+  background-color: white;
+  z-index: 2;
+  height: 110vh; }
+
+.about-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -56px; }
+  .about-cont p {
+    padding: 63px 1px 11px 146px; }
+  .about-cont .about-cont-inside {
+    display: flex; }
+    .about-cont .about-cont-inside div {
+      margin-top: -120px;
+      padding-right: 50px; }
+
+h2, h1 {
+  letter-spacing: 4px;
+  font-family: "Righteous"; }
+
+h2 {
+  font-size: 48px;
+  background-color: #fdeff5;
+  padding: 20px 30px; }
