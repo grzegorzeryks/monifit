@@ -15,7 +15,8 @@ body {
   background-color: #fdeff5; }
 
 p {
-  font-size: 1.1rem; }
+  font-size: 1.1rem;
+  line-height: 1.6rem; }
 
 h2,
 h1,
@@ -231,16 +232,22 @@ section {
       .gallery .gallery-grid div:nth-child(odd) {
         background: #dfceff; }
 
-.contact h2 {
+.contact {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
-  color: #3c3c3c; }
+  align-items: center; }
+  .contact h2 {
+    color: #3c3c3c; }
+  .contact div {
+    margin-top: 40px;
+    border: dashed 1px hotpink;
+    width: 60%;
+    height: 342px; }
 
 footer {
   height: 76px;
-  background-color: #ef476f;
+  background-color: #fad7e5;
   display: flex;
   justify-content: space-between;
   align-items: center;
