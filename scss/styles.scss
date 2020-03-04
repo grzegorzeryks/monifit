@@ -341,15 +341,38 @@ section {
         width: 80%;
         grid-gap: 2em;
 
-        div {
-            background-color: rgb(239, 71, 111);
+        .thumb-1 {
+            background-image: url("../img/1.jpg");
+            
+        }
+        .thumb-2 {
+            background-image: url("../img/7.jpg");
+            background-position: top;
+        }
+        .thumb-3 {
+            background-image: url("../img/3.jpg");
+            background-position: top;
+        }
+        .thumb-4 {
+            background-image: url("../img/4.jpg");
+        }
+        .thumb-5 {
+            background-image: url("../img/5.jpg");
+        }        .thumb-6 {
+            background-image: url("../img/6.jpg");
+        }
 
-            &:nth-child(odd) {
-                background: rgb(223, 206, 255);
-            }
+        div {
+            background-position: 50% 30%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
         }
     }
 }
+
+
+
 
 .contact {
     display: flex;

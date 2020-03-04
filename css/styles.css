@@ -227,10 +227,24 @@ section {
     grid-auto-rows: 222px;
     width: 80%;
     grid-gap: 2em; }
+    .gallery .gallery-grid .thumb-1 {
+      background-image: url("../img/1.jpg"); }
+    .gallery .gallery-grid .thumb-2 {
+      background-image: url("../img/7.jpg");
+      background-position: top; }
+    .gallery .gallery-grid .thumb-3 {
+      background-image: url("../img/3.jpg");
+      background-position: top; }
+    .gallery .gallery-grid .thumb-4 {
+      background-image: url("../img/4.jpg"); }
+    .gallery .gallery-grid .thumb-5 {
+      background-image: url("../img/5.jpg"); }
+    .gallery .gallery-grid .thumb-6 {
+      background-image: url("../img/6.jpg"); }
     .gallery .gallery-grid div {
-      background-color: #ef476f; }
-      .gallery .gallery-grid div:nth-child(odd) {
-        background: #dfceff; }
+      background-position: 50% 30%;
+      background-repeat: no-repeat;
+      background-size: cover; }
 
 .contact {
   display: flex;
