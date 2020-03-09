@@ -376,6 +376,8 @@ footer {
       margin-bottom: 20px; }
   .pricing-cont {
     flex-direction: column; }
+    .pricing-cont .button {
+      font-size: 1.5rem; }
     .pricing-cont div:nth-child(1) {
       display: none; }
   .gallery .gallery-grid {

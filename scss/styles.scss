@@ -545,6 +545,9 @@ footer {
     }
     .pricing-cont{
         flex-direction: column;
+        .button {
+            font-size: 1.5rem;
+        }
         div:nth-child(1){
             display: none;
         }
