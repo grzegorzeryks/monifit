@@ -362,6 +362,8 @@ footer {
     flex-direction: column; }
     .about .about-cont-inside div {
       padding: 0; }
+      .about .about-cont-inside div img {
+        width: 100%; }
     .about .about-cont-inside p {
       padding: 73px;
       font-size: 1rem; }
