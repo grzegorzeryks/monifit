@@ -22,7 +22,8 @@ h1,
 h2 {
   font-size: 48px;
   background-color: #fdeff5;
-  padding: 20px 30px; }
+  padding: 20px 30px;
+  z-index: 44; }
 
 .button {
   font-size: 29.52px;
@@ -43,7 +44,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   letter-spacing: 1.8px;
-  z-index: 33; }
+  z-index: 66; }
   nav .logo-nav {
     height: 43px;
     margin-left: 20px; }
@@ -342,3 +343,11 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 0 40px; }
+
+@media only screen and (max-width: 468px) {
+  nav ul {
+    visibility: hidden; } }
+
+@media only screen and (max-width: 1116px) {
+  nav ul {
+    visibility: hidden; } }
