@@ -554,6 +554,11 @@ footer {
             grid-template-columns: repeat(1, 1fr);
         }
     }
+    .contact{
+        img{
+            width: 80%;
+        }
+    }
 }
 
 @media only screen and (max-width: 1116px) {
