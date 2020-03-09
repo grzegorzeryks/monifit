@@ -244,7 +244,37 @@ section {
     .gallery .gallery-grid div {
       background-position: 50% 30%;
       background-repeat: no-repeat;
-      background-size: cover; }
+      background-size: cover;
+      cursor: pointer; }
+      .gallery .gallery-grid div:hover {
+        background-position: center;
+        transition: ease 2s; }
+
+.gallery-box {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  margin-left: -2000px; }
+
+.picture {
+  height: 100vh;
+  margin-top: 40px;
+  width: 100%;
+  background: url("../img/7.jpg") no-repeat;
+  background-position: center;
+  background-size: contain; }
+
+.close-box {
+  background-color: #ef476f;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 100px;
+  right: 50px;
+  border-radius: 50%;
+  cursor: pointer; }
 
 .contact {
   display: flex;
