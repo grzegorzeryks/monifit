@@ -503,6 +503,57 @@ footer {
             visibility: hidden;
         }
     }
+    .main {
+        flex-direction: column;
+        height: 1315px;
+        div:nth-child(2){
+            margin:0;
+            padding: 20px 0;
+        }
+        img{
+            width: 80%;
+        }
+    }
+
+    .about {
+        .about-cont-inside {
+            flex-direction: column;
+            div {
+                padding: 0;
+            }
+            p{
+                padding: 73px;
+                font-size: 1rem;
+            }
+        }
+        h2 {
+            font-size: 2rem;
+        }
+    }
+
+    .offer{
+        div {
+            padding: 0;
+        }
+        .icons{
+            flex-direction: column;
+            align-items: center;
+            div {
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .pricing-cont{
+        flex-direction: column;
+        div:nth-child(1){
+            display: none;
+        }
+    }
+    .gallery {
+        .gallery-grid{
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
 }
 
 @media only screen and (max-width: 1116px) {

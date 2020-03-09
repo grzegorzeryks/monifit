@@ -349,7 +349,37 @@ footer {
 
 @media only screen and (max-width: 468px) {
   nav ul {
-    visibility: hidden; } }
+    visibility: hidden; }
+  .main {
+    flex-direction: column;
+    height: 1315px; }
+    .main div:nth-child(2) {
+      margin: 0;
+      padding: 20px 0; }
+    .main img {
+      width: 80%; }
+  .about .about-cont-inside {
+    flex-direction: column; }
+    .about .about-cont-inside div {
+      padding: 0; }
+    .about .about-cont-inside p {
+      padding: 73px;
+      font-size: 1rem; }
+  .about h2 {
+    font-size: 2rem; }
+  .offer div {
+    padding: 0; }
+  .offer .icons {
+    flex-direction: column;
+    align-items: center; }
+    .offer .icons div {
+      margin-bottom: 20px; }
+  .pricing-cont {
+    flex-direction: column; }
+    .pricing-cont div:nth-child(1) {
+      display: none; }
+  .gallery .gallery-grid {
+    grid-template-columns: repeat(1, 1fr); } }
 
 @media only screen and (max-width: 1116px) {
   nav ul {
