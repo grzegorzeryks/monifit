@@ -46,7 +46,7 @@ nav {
   letter-spacing: 1.8px;
   z-index: 66; }
   nav .logo-nav {
-    height: 43px;
+    height: 38px;
     margin-left: 20px; }
   nav ul li {
     display: inline-block; }
@@ -474,12 +474,15 @@ footer {
     width: 80%; } }
 
 @media only screen and (max-width: 1116px) {
-  nav .logo-nav {
-    margin-right: 20px; }
-  nav #menuToggle {
-    display: block; }
-    nav #menuToggle ul {
-      display: flex;
-      flex-direction: column; }
-  nav ul {
-    display: none; } }
+  nav {
+    display: flex;
+    flex-direction: row-reverse; }
+    nav .logo-nav {
+      margin-right: 20px; }
+    nav #menuToggle {
+      display: block; }
+      nav #menuToggle ul {
+        display: flex;
+        flex-direction: column; }
+    nav ul {
+      display: none; } }

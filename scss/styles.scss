@@ -56,7 +56,7 @@ nav {
     z-index: 66;
 
     .logo-nav {
-        height: 43px;
+        height: 38px;
         margin-left: 20px;
     }
 
@@ -698,8 +698,11 @@ footer {
 
 @media only screen and (max-width: 1116px) {
     nav {
+        display: flex;
+        flex-direction: row-reverse;
         .logo-nav {
             margin-right: 20px;
+
         }
         #menuToggle{
             display: block;
