@@ -504,7 +504,7 @@ footer {
     display: none;
     position: relative;
 
-    right: 20px;
+    left: 20px;
     
     z-index: 1;
     
@@ -593,7 +593,7 @@ footer {
     margin: -100px 0 0 -50px;
     padding: 50px;
     padding-top: 125px;
-    left: -346px;
+ 
     background: #fad7e5;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
@@ -616,7 +616,8 @@ footer {
 
 @media only screen and (max-width: 468px) {
     nav {
-
+        display: flex;
+        flex-direction: row-reverse;
         #menuToggle{
             display: block;
             ul {
@@ -697,7 +698,9 @@ footer {
 
 @media only screen and (max-width: 1116px) {
     nav {
-
+        .logo-nav {
+            margin-right: 20px;
+        }
         #menuToggle{
             display: block;
             ul {
