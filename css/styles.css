@@ -54,7 +54,8 @@ nav {
       color: #fdeff5;
       text-decoration: none; }
       nav ul li a:hover {
-        color: hotpink; }
+        color: hotpink;
+        transition: ease 1s; }
     nav ul li .de {
       margin-left: 10px;
       color: hotpink; }
