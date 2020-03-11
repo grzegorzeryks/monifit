@@ -719,4 +719,25 @@ footer {
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .main {
+        div {
+            img {
+                width: 80%;
+            }
+            h1 {
+                display: none;
+            }
+            p {
+                display: none;
+            }
+        }
+    }
+    .about {
+        img {
+            display: none;
+        }
+    }
+    .pricing {div:nth-child(1){display:none}}
+}
 // border: dashed 1px hotpink;
