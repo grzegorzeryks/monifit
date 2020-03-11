@@ -122,6 +122,17 @@ section {
     display: flex;
     padding: 0;
 
+    // &:before{
+    //     content: ' ';
+    //     position: absolute;
+    //     bottom: -112px;
+    //     right: 0;
+    //     z-index: -2;
+    //     border-top: 87px solid transparent;
+    //     border-right: 95px solid #ffffff;
+    //     border-bottom: 0px solid transparent;
+    // }
+
 
     h1 {
         background-color: rgb(60, 60, 60);
