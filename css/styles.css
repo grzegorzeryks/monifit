@@ -6,7 +6,7 @@
 
 body {
   background: #c3eeff;
-  font-family: "Open Sans";
+  font-family: 'Lato', sans-serif;
   background-color: #fdeff5; }
 
 p {
@@ -93,6 +93,8 @@ section {
     color: black;
     padding: 20px;
     letter-spacing: 4px; }
+    .main p span {
+      font-size: 1.3rem; }
     .main p:nth-child(4) {
       font-size: 35px;
       background-color: #3c3c3c;
@@ -466,7 +468,7 @@ footer {
   .pricing-cont {
     flex-direction: column; }
     .pricing-cont .button {
-      font-size: 1.5rem; }
+      font-size: 1.1rem; }
     .pricing-cont div:nth-child(1) {
       display: none; }
   .gallery .gallery-grid {
